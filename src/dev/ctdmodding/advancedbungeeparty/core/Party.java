@@ -292,9 +292,7 @@ public class Party {
 	
 	public void warp(ServerInfo server) {
 		if (Util.isOnline(leaderID)) {
-			
 			broadcastPartyMessage("&eYou have been warped to " + memberList.get(leaderID) + "&e's server!" );
-			
 			for (UUID uuid : memberList.keySet()) {
 				if (!uuid.equals(leaderID)) {
 					if (Util.isOnline(uuid)) {

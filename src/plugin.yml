@@ -1,0 +1,5 @@
+name: AdvancedBungeeParty
+main: dev.ctdmodding.advancedbungeeparty.PartySystem
+author: ctd
+description: Bungee Party System
+version: 2.0

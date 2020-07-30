@@ -1,0 +1,9 @@
+#Indev
+Party:
+  Settings:
+    ChatPrefix: &9Party>
+    # Minutes
+    InviteTimeout: 1
+    OfflineRemovalTimeout: 5
+    
+    
